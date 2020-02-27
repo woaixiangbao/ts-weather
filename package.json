@@ -9,9 +9,15 @@
   "keywords": [
     "ts"
   ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "node tslint -c tslint.json './**/*.ts'"
+    }
+  },
   "author": "jianqing",
   "license": "ISC",
   "devDependencies": {
+    "husky": "^4.2.3",
     "tslint": "^6.0.0"
   }
 }
