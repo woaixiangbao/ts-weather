@@ -1,0 +1,17 @@
+{
+  "name": "ts-weather",
+  "version": "1.0.0",
+  "description": "ts learn",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ts"
+  ],
+  "author": "jianqing",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^6.0.0"
+  }
+}
