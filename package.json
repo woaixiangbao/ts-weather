@@ -1,6 +1,6 @@
 {
   "name": "ts-weather",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ts learn",
   "main": "index.ts",
   "scripts": {
@@ -11,7 +11,7 @@
   ],
   "husky": {
     "hooks": {
-      "pre-commit": "node tslint -c tslint.json './**/*.ts'"
+      "pre-commit": "tslint -c tslint.json './src/*.ts'"
     }
   },
   "author": "jianqing",
@@ -19,5 +19,8 @@
   "devDependencies": {
     "husky": "^4.2.3",
     "tslint": "^6.0.0"
+  },
+  "dependencies": {
+    "typescript": "^3.8.2"
   }
 }
