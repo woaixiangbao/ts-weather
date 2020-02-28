@@ -1,0 +1,1 @@
+ts-node ./src/index.ts -c 北京
