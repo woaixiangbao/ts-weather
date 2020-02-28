@@ -9,11 +9,6 @@
   "keywords": [
     "ts"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "tslint -c tslint.json './src/*.ts'"
-    }
-  },
   "author": "jianqing",
   "license": "ISC",
   "devDependencies": {
@@ -22,6 +17,7 @@
   },
   "dependencies": {
     "@types/node": "^13.7.6",
+    "axios": "^0.19.2",
     "colors": "^1.4.0",
     "commander": "^4.1.1",
     "typescript": "^3.8.2"
